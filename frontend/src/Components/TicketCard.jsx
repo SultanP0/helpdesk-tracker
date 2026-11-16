@@ -5,7 +5,7 @@ function TicketCard(props) {
     <div className="card">
       <h3>{props.title}</h3>
       <p>{props.description}</p>
-      <p>Priority: {props.priority}</p>
+      <p> <span>Priority:</span> {props.priority}</p>
       <StatusBadge status={props.status} />
       <select
         value={props.status}

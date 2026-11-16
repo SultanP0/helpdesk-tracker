@@ -42,6 +42,10 @@ nav a:hover {
 }
 
 .card h3 {
+  display: flex;
+  justify-content: center;
+  border: solid 1.4px black;
+  border-radius: 5px;
   margin-top: 0;
 }
 
@@ -86,3 +90,10 @@ button {
 .primary {
   background-color: #27ae60;
 }
+
+span {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
